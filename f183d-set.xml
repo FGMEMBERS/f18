@@ -11,7 +11,7 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
 
  <sim>
 
-  <description>F-18 Hornet Canadian Air Force</description>
+  <description>F-18 Hornet Canadian Air Force (3D Cockpit)</description>
   <author>Fabrice Kauffmann</author>
   <status>Early production</status>
  
@@ -31,22 +31,21 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   </model>
 
   <panel>
-   <path>Aircraft/f18/Panels/f18-2d-panel.xml</path>
-   <visibility archive="y">true</visibility>
-  </panel> 
-  <panel_2>
-   <visibility>false</visibility>
-  </panel_2>
-  
+   <visibility archive="y">false</visibility>
+  </panel>
+
   <hud>
-   <path>Aircraft/f18/Hud/default.xml</path>
+   <path>Aircraft/f15c/Hud/default.xml</path>
    <visibility>true</visibility>
   </hud>
   
-  <view>
+  <view n="0">
+   <internal archive="y">true</internal>
    <config>
-     <pitch-offset-deg>-9</pitch-offset-deg>
-     <default-field-of-view-deg>60</default-field-of-view-deg>
+     <x-offset-m archive="y">0.000</x-offset-m> <!-- -0.28-->
+     <y-offset-m archive="y">1.0</y-offset-m>   <!-- 0.51-->
+     <z-offset-m archive="y">-3.4</z-offset-m>   <!-- 2.62-->
+     <pitch-offset-deg>0</pitch-offset-deg>
    </config>
   </view>
 

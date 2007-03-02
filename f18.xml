@@ -8,7 +8,7 @@
         <author> Fabrice Kauffmann </author>
         <filecreationdate> 2007-02-09 </filecreationdate>
         <version> $Revision$ </version>
-        <description> Models a F-18 Hornet based on the F-16A Block-32 from Erik Hofman </description>
+        <description>F-18 Hornet RCAF 80th Anniversary</description>
         <reference refID="ISBN 0-7232-3458-2" author="William Green" title="General Dynamics F-16 Dash-1" date="1987"/>
         <reference refID="NASA TP-1538" author="" title="wind tunnel data" date="12/1979"/>
         <reference refID="None" author="Richard Murray" title="http://www.cds.caltech.edu/~murray/projects/afosr95-vehicles/models/f16/" date="n/a"/>

@@ -246,4 +246,50 @@
   </axis>
  </animation> 
 
+ <animation>
+  <type>rotate</type>
+  <object-name>Stick</object-name>
+  <property>/controls/flight/elevator</property>
+  <factor>-8</factor>
+  <center>
+   <x-m>-3.90078</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.20</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Stick</object-name>
+  <property>/controls/flight/aileron</property>
+  <factor>-8</factor>
+  <center>
+   <x-m>-3.90078</x-m>
+   <y-m>0.00</y-m>
+   <z-m>0.20</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>translate</type>
+  <object-name>Truster</object-name>
+  <property>controls/engines/engine[0]/throttle</property>
+  <factor>-0.11</factor>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
 </PropertyList>
