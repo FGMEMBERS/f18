@@ -252,7 +252,7 @@
   <property>/controls/flight/elevator</property>
   <factor>-8</factor>
   <center>
-   <x-m>-3.90078</x-m>
+   <x-m>-3.98</x-m>
    <y-m>0.00</y-m>
    <z-m>0.20</z-m>
   </center>
@@ -269,7 +269,7 @@
   <property>/controls/flight/aileron</property>
   <factor>-8</factor>
   <center>
-   <x-m>-3.90078</x-m>
+   <x-m>-3.98</x-m>
    <y-m>0.00</y-m>
    <z-m>0.20</z-m>
   </center>

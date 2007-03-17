@@ -11,7 +11,7 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
 
  <sim>
 
-  <description>F-18 Hornet Canadian Air Force (3D Cockpit)</description>
+  <description>F-18 Hornet Canadian Royal Air Force (3D Cockpit)</description>
   <author>Fabrice Kauffmann</author>
   <status>Early production</status>
  
@@ -35,7 +35,7 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   </panel>
 
   <hud>
-   <path>Aircraft/f15c/Hud/default.xml</path>
+   <path>Aircraft/f18/Hud/default.xml</path>
    <visibility>true</visibility>
   </hud>
   
@@ -43,7 +43,7 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
    <internal archive="y">true</internal>
    <config>
      <x-offset-m archive="y">0.000</x-offset-m> <!-- -0.28-->
-     <y-offset-m archive="y">1.0</y-offset-m>   <!-- 0.51-->
+     <y-offset-m archive="y">0.97</y-offset-m>   <!-- 0.51-->
      <z-offset-m archive="y">-3.4</z-offset-m>   <!-- 2.62-->
      <pitch-offset-deg>0</pitch-offset-deg>
    </config>
