@@ -35,8 +35,8 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   </panel>
 
   <hud>
-   <path>Aircraft/f18/Hud/default.xml</path>
-   <visibility>true</visibility>
+   <path n="1">Aircraft/f18/f18-hud.xml</path>
+   <visibility n="1">true</visibility>
   </hud>
   
   <view n="0">
