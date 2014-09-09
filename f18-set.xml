@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+F-18 Hornet Canadian Air Force
+80th Anniversary
+Fabrice Kauffmann,  f-kauffmann@skynet.bet
+************************************************************************
+-->
+
+<PropertyList>
+
+ <sim>
+
+  <description>F-18 Hornet Royal Canadian Air Force</description>
+  <author>Fabrice Kauffmann</author>
+  <status>Early production</status>
+ 
+  <flight-model>jsb</flight-model>
+  <aero>f18</aero>
+
+  <startup>
+   <splash-texture>Aircraft/f18/f18-splash.rgb</splash-texture>
+  </startup>
+  
+  <sound>
+   <path>Aircraft/f18/f18-sound.xml</path>
+  </sound>
+
+  <model>
+   <path>Aircraft/f18/Models/f18.xml</path>
+  </model>
+
+  <panel>
+   <path>Aircraft/f18/Panels/f18-2d-panel.xml</path>
+   <visibility archive="y">true</visibility>
+  </panel> 
+  <panel_2>
+   <visibility>false</visibility>
+  </panel_2>
+  
+  <hud>
+   <path n="1">Aircraft/f18/f18-hud.xml</path>
+   <visibility n="1">true</visibility>
+  </hud>
+  
+  <view>
+   <config>
+     <pitch-offset-deg>-9</pitch-offset-deg>
+     <default-field-of-view-deg>60</default-field-of-view-deg>
+   </config>
+  </view>
+
+  <chase-distance-m>-25</chase-distance-m>
+
+  <!-- turns off GA tower communications -->
+  <ATC>
+   <enabled type="bool">false</enabled>
+  </ATC>
+
+  <!-- turns off GA traffic -->
+  <ai-traffic>
+   <enabled type="bool">false</enabled>
+  </ai-traffic>
+
+ </sim>
+ 
+ <engines>
+  <engine n="0">
+    <running>true</running>
+  </engine>
+ </engines>
+ 
+</PropertyList>
