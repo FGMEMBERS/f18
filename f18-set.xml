@@ -14,14 +14,18 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   <description>F-18 Hornet Royal Canadian Air Force</description>
   <author>Fabrice Kauffmann</author>
   <status>Early production</status>
- 
+
+  <!-- making the 3d cockpit the primary since that is presumably the
+    more popular option as of 2016 -->
+   <variant-of>f183d</variant-of>
+
   <flight-model>jsb</flight-model>
   <aero>f18</aero>
 
   <startup>
    <splash-texture>Aircraft/f18/f18-splash.rgb</splash-texture>
   </startup>
-  
+
   <sound>
    <path>Aircraft/f18/f18-sound.xml</path>
   </sound>
@@ -33,16 +37,16 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   <panel>
    <path>Aircraft/f18/Panels/f18-2d-panel.xml</path>
    <visibility archive="y">true</visibility>
-  </panel> 
+  </panel>
   <panel_2>
    <visibility>false</visibility>
   </panel_2>
-  
+
   <hud>
    <path n="1">Aircraft/f18/f18-hud.xml</path>
    <visibility n="1">true</visibility>
   </hud>
-  
+
   <view>
    <config>
      <pitch-offset-deg>-9</pitch-offset-deg>
@@ -63,11 +67,11 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   </ai-traffic>
 
  </sim>
- 
+
  <engines>
   <engine n="0">
     <running>true</running>
   </engine>
  </engines>
- 
+
 </PropertyList>
