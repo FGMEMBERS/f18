@@ -14,6 +14,31 @@ Fabrice Kauffmann,  f-kauffmann@skynet.bet
   <description>F-18 Hornet Canadian Royal Air Force (3D Cockpit)</description>
   <author>Fabrice Kauffmann</author>
   <status>Early production</status>
+
+  <tags>
+    <tag>fighter</tag>
+    <tag>1980s</tag>
+    <tag>1990s</tag>
+    <tag>2000s</tag>
+    <tag>2010s</tag>
+    <tag>gulfwar1</tag>
+    <tag>gulfwar2</tag>
+    <tag>douglas</tag>
+    <tag>northrop</tag>
+    <tag>boeing</tag>
+    <tag>hud</tag>
+    <tag>glass-cockpit</tag>
+    <tag>ifr</tag>
+    <tag>supersonic</tag>
+    <tag>retractable-gear</tag>
+    <tag>v-tail</tag>
+    <tag>tail-hook</tag>
+    <tag>refuel</tag>
+    <tag>wing-fold</tag>
+    <tag>jet</tag>
+    <tag>afterburner</tag>
+    <tag>twin-engine</tag>
+  </tags>
  
   <flight-model>jsb</flight-model>
   <aero>f18</aero>
